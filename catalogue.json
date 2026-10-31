@@ -5,13 +5,31 @@
    "nom": "GeoGuessr dans le Pizzaplex",
    "description": "Un joueur photographie un endroit du Pizzaplex, les autres ont 10 minutes pour le retrouver. Touche J en jeu.",
    "dossier": "GeoGuessrSB",
-   "garder": ["GeoImages", "importes", "creation", "options.txt", "scores.txt", "journal.log"],
+   "garder": [
+    "GeoImages",
+    "importes",
+    "creation",
+    "options.txt",
+    "scores.txt",
+    "journal.log"
+   ],
    "importer": {
     "texte": "Ajouter des manches",
     "type": "ZIP de manches",
     "filtre": "*.zip",
     "message": "Manches ajoutées : elles seront chargées au prochain lancement du jeu."
    }
+  },
+  {
+   "id": "OverdriveSB",
+   "nom": "Overdrive",
+   "description": "Les animatroniques accélèrent petit à petit : toutes les 5 minutes (mode Temps) ou à chaque mort (mode Mort). F6 menu, F7 baisser d'un palier.",
+   "dossier": "OverdriveSB",
+   "garder": [
+    "options.txt",
+    "progression.txt",
+    "journal.log"
+   ]
   }
  ]
 }
